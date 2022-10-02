@@ -1,7 +1,7 @@
 export let modules = [
     {
       ModuleID: 1,
-      ModuleName: "Games Programmingee",
+      ModuleName: "Games Programmingees",
       ModuleCode: "CI2270",
       ModuleLevel: 4,
       ModuleLeaderID: 1,

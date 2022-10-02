@@ -1,0 +1,55 @@
+/* -------------------------------------------- */
+/* Styling //////////////////////////////////// */
+/* -------------------------------------------- */
+
+div.Card.Hovering {
+  /* Appearance */
+  border-radius: 5px;
+  box-shadow: 5px 10px 20px 4px rgba(70,70,70,0.5);
+  transform: translateY(-5px);
+  transition: all 0.25s ease;
+}
+
+div.CardContainer {
+  /* Appearance */
+  padding-top: 10px;
+  width: 100%;
+  height: 50%;
+}
+
+.Card {
+  /* Appearance */
+  border-radius: 5px;
+  background: White;
+  box-shadow: 4px 4px 8px 4px rgba(70,70,70,0.3);
+  padding: 10px;
+}
+
+.image {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  
+}
+
+.h3{
+  width: 10rem;
+  height: 6rem;
+  object-fit: cover;
+}
+
+.h2 {
+  object-fit: cover;
+  color: #adadad;
+  font-size: 15px;
+}
+
+.p {
+  
+  font-size: 12px;
+}
+
+.Card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+ 
+}
